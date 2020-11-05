@@ -40,9 +40,10 @@ public class MainActivity extends AppCompatActivity implements AdapterCar.OnCarC
 
         Log.i("info" , String.valueOf(cars));
         //cars = new ArrayList<Car>();
-        //cars.add(new Car(R.drawable.image1 , "ABC-123","BMW","2000","RED","1250"));
-        //cars.add(new Car(R.drawable.image2 , "ABC-321","BMW","2000","RED","1350"));
-        //cars.add(new Car(R.drawable.image3 , "ABC-222","BMW","2000","RED","2250"));
+        cars = Data.get();
+        cars.add(new Car(R.drawable.image1 , "ABC-123","BMW","2000","RED","1250"));
+        cars.add(new Car(R.drawable.image2 , "ABC-321","BMW","2000","RED","1350"));
+        cars.add(new Car(R.drawable.image3 , "ABC-222","BMW","2000","RED","2250"));
 
 
         adapter = new AdapterCar(cars ,this);
@@ -89,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements AdapterCar.OnCarC
     protected void onStart() {
         super.onStart();
         Log.i("start" , "metodo onStart");
-        cars = Data.get();
+
 
         adapter = new AdapterCar(cars ,this);
         llm = new LinearLayoutManager(this);

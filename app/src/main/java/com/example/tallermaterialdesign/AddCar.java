@@ -85,13 +85,13 @@ public class AddCar extends AppCompatActivity {
 
             switch (color){
                 case 1:
-                    co = getString(R.string.blue);
+                    co =  getString(R.string.green);
                     break;
                 case 2:
-                    co = getString(R.string.green);
+                    co = getString(R.string.red);
                     break;
                 case 3:
-                    co = getString(R.string.red);
+                    co = getString(R.string.blue);
                     break;
                 default:
                     throw new IllegalStateException("Unexpected value: " + color);
