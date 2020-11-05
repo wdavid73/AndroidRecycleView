@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello First Fragment</string>
+    <string name="hello_second_fragment">Hello Second Fragment</string>
+    <string name="car_details">Image Details Car</string>
+    <string name="title_details">Details Car</string>
+    <string name="delete">Delete</string>
+    <string name="title_add_car">Add Car</string>
+    <string name="btn_save">Save</string>
+    <string name="select_model">Choose Model</string>
+    <string name="select_color">Choose Color</string>
+    <string name="select_brand">Choose Brand</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="red">Rojo</string>
+    <string name="input_licence_plate">Input a License Plate</string>
+    <string name="input_price">Input a Price</string>
+    <string name="car_added">Car Added</string>
+    <string name="validate_licence_plate">Enter a License Plate Please</string>
+    <string name="validate_price">Enter a Price Valid</string>
+    <string name="validate_brand">Choose a Brand</string>
+    <string name="validate_model">Choose a Model</string>
+    <string name="validate_color">Choose a Color</string>
+</resources>
